@@ -1,0 +1,49 @@
+.goods-relative {
+  margin-bottom: 1.08rem!important;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 0 .26rem;
+  >p {
+    font-size: .24rem;
+    color: #939393;
+    border-bottom: 1px solid #e2e2e2;
+    height: .7rem;
+    line-height: .7rem;
+  }
+  .swiper-container{
+    margin: 0 ;
+  }
+
+  .relative-list {
+    //width: 6.95rem;
+    height: 2.42rem;
+    //overflow-x: scroll;
+    //overflow-y: hidden;
+    padding-top: 1px;
+    .imgcon {
+      float: left;
+      border-right: 1px solid #e2e2e5;
+      text-align: center;
+      width: 1.99rem!important;
+      height: 1.91rem;
+      div{
+        margin:0 auto;
+        width: 1.91rem;
+        height: 1.91rem;
+        padding: 0 .15rem;
+      }
+
+      &:first-child {
+        border-left: 1px solid #e2e2e5;
+
+      }
+      p {
+        font-size: .21rem;
+      }
+      img{
+        width: 100%;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,20 @@
+.goods-show{
+  .swiper-container{
+    .swiper-pagination-bullet {
+      width: .12rem;
+      height: .12rem;
+      border-radius: 50%;
+      background-color: black;
+    }
+    .swiper-pagination-bullet-active{
+      background-color: #FF9800;
+    }
+    .swiper-pagination {
+      text-align: center;
+    }
+
+    .swiper-slide {
+      border-bottom: 1px solid #e5e5e5;
+    }
+  }
+}
